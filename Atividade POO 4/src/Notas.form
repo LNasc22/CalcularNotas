@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.pucpr.poo.Notas.Notas">
+  <grid id="27dc6" binding="pnlNotas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1536" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1024" height="768"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="55b37" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="74b9b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <preferredSize width="161" height="30"/>
+              <text value="Cálculo de Notas de POO"/>
+            </properties>
+          </component>
+          <component id="52069" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="11"/>
+              <preferredSize width="80" height="16"/>
+              <text value="Trabalho 01"/>
+            </properties>
+          </component>
+          <component id="1e7b7" class="javax.swing.JTextField" binding="txtTrab01">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="4a678" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <preferredSize width="80" height="16"/>
+              <text value="Trabalho 02"/>
+            </properties>
+          </component>
+          <component id="3ed66" class="javax.swing.JTextField" binding="txtTrab02">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="ed857" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="11"/>
+              <preferredSize width="80" height="16"/>
+              <text value="Trabalho 03"/>
+            </properties>
+          </component>
+          <component id="36ade" class="javax.swing.JTextField" binding="txtTrab03">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="a104d" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="11"/>
+              <preferredSize width="80" height="16"/>
+              <text value="Trabalho 04"/>
+            </properties>
+          </component>
+          <component id="3a80" class="javax.swing.JTextField" binding="txtTrab04">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="8142b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="11"/>
+              <preferredSize width="80" height="16"/>
+              <text value="PjBL"/>
+            </properties>
+          </component>
+          <component id="62777" class="javax.swing.JTextField" binding="txtPjbl">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="61fd0" class="javax.swing.JButton" binding="btnCalc">
+            <constraints/>
+            <properties>
+              <preferredSize width="127" height="40"/>
+              <text value="Calcular Notas"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5587a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="150" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3ce8" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="150" height="30"/>
+              <text value="RAs Calculados"/>
+            </properties>
+          </component>
+          <component id="f02ca" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="RA01"/>
+            </properties>
+          </component>
+          <component id="7b9ac" class="javax.swing.JTextField" binding="txtRa01">
+            <constraints/>
+            <properties>
+              <preferredSize width="80" height="30"/>
+            </properties>
+          </component>
+          <component id="ddbd0" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="RA02"/>
+            </properties>
+          </component>
+          <component id="b3df0" class="javax.swing.JTextField" binding="txtRa02">
+            <constraints/>
+            <properties>
+              <preferredSize width="80" height="30"/>
+            </properties>
+          </component>
+          <component id="5af83" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="RA03"/>
+            </properties>
+          </component>
+          <component id="77ce8" class="javax.swing.JTextField" binding="txtRa03">
+            <constraints/>
+            <properties>
+              <preferredSize width="80" height="30"/>
+            </properties>
+          </component>
+          <component id="b5c4c" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="RA04"/>
+            </properties>
+          </component>
+          <component id="27ae2" class="javax.swing.JTextField" binding="txtRa04">
+            <constraints/>
+            <properties>
+              <preferredSize width="80" height="30"/>
+            </properties>
+          </component>
+          <component id="2fa5b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <preferredSize width="72" height="30"/>
+              <text value="Média Final"/>
+            </properties>
+          </component>
+          <component id="86356" class="javax.swing.JLabel" binding="lblGrade">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="100" height="16"/>
+              <text value="0.0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
